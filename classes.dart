@@ -9,23 +9,23 @@ void main() {
 
 class Cars {
 
-  // shapes = roadster, sedan , suv , cupoe, xuv
+  String shapes = roadster, sedan , suv , cupoe, xuv
 
   String shape = " sedan"; // sedan default
    
   int engine(){
-    // fuel = petrol , desiel, eletrical , hybrid, hydrogen
+    String fuel = petrol , desiel, eletrical , hybrid, hydrogen
     String fuel = "petrol" ;
-    // tires = 19, 18,21,17
+    String tires = 19, 18,21,17
     return 1;
     
   }
   
   // when function used sepeartely is called fucntion when used in class is called method
   void interior(){
-    // dashbood = carbonFiber, wood, hardPlastic, softPlastic
-    // seats = heating, ventilated , leather, wool
-    // speakers = jbl, harmonCardon, bang&olsen
+    String dashbood = carbonFiber, wood, hardPlastic, softPlastic
+    String seats = heating, ventilated , leather, wool
+    String speakers = jbl, harmonCardon, bang&olsen
     
     }
     void touches(){
